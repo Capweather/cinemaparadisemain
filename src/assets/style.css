@@ -1,0 +1,445 @@
+ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 85vw;
+    margin: 0 auto;
+}
+ul li {
+    list-style-type: none;
+}
+
+.image {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.card h1{
+    font-size: 10px;
+}
+
+.card p{
+    font-size: 10px;
+    align-items: center;
+}
+
+.card button {
+    padding: 3px 5px 7px;
+    padding-top: 7px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    border-radius: 7px;
+    min-width: 10vw;
+   
+
+}
+
+.text h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+.text p{
+    font-size: 12px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.text button{
+        background-color: transparent;
+        border-color:rgb(36, 24, 165);
+        border-radius: 30px;
+        padding: 10px 20px;
+}
+
+.text img{
+    width: 600%;
+    text-align: center;
+
+}
+
+
+.main-image{
+    display: flex;
+
+}
+
+footer{
+    text-align: center;
+}
+
+.text{
+    padding-left: 40px;
+}
+
+.newly-rel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* *{
+    margin:0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 38%;
+}
+
+img.logo {
+    width: 9vw;
+}
+
+img.bk-img{
+   max-width: 60%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.left img{
+    display: flex;
+    width: 2vw;
+    justify-content: space-around;
+}
+
+.left a{
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+}
+
+.text {
+    margin-left: 4%;
+}
+
+.text p{
+    font-size: 12px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.text h1{
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.path{
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.watch {
+    background-color: transparent;
+    border-color:rgb(36, 24, 165);
+    border-radius: 30px;
+    padding: 10px 20px;
+
+  
+}
+
+
+.released {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px
+    margin-top: 25px;
+    }
+
+
+
+.releases {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px
+}
+
+
+.icon {
+    margin-right: 2px
+
+}
+.newly{
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+}
+.Upcoming{
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.griditem p{
+    margin-top: 5px;
+}
+ */
+
+/* ------------------------------ header footer ------------------------------
+
+.movie-grid{                                                         complete
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 75vw;
+        margin-left: 180px;
+}
+
+.gridimg {
+    width: 90%;
+    margin-top: 25px;
+}
+
+.watchtrailer button{
+    padding: 3px 5px 7px;
+    padding-top: 7px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    border-radius: 7px;
+    min-width: 10vw;
+
+}
+
+.home{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.home button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    font-size: 16px
+}
+
+.All{
+    margin-top: 10%;
+}
+
+.griditem p{                                               complete
+    font-size: 10px;
+}
+
+.griditem h4{
+    align-items: center;
+    font-size: 11px;
+}
+.rating{
+  
+    display:flex;
+    justify-content:flex-start;
+    gap:5%;
+}
+
+.genre-tab button{
+    background-color: #4e4e50;
+    color:#fff;
+    padding:2%;
+    border: none;
+    border-radius:  1rem;
+    width: 5rem;
+}
+
+.play button{
+    background-color: #4e4e50;
+    color:#fff;
+    padding:2%;
+    border: none;
+    border-radius:  1rem;
+    width: 15vw;
+    
+}
+
+
+/* --------------------footer------------ */
+
+
+
+/* 
+.icon img{
+    width: 2.5vw;
+    align-items: center;
+}
+
+.low p{
+    font-size: 12px;
+    align-items: center;
+}
+
+.low h4{
+    font-size: 15px;
+    align-items: center;
+}
+
+.low img{
+    width: 12vw;
+   
+}
+
+.low{
+    text-align: center;
+} */
+
+
+/******************************************
+*****************Preview
+*************************************************/
+
+/* .preview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    transform: translate(-50%,-50%);
+    height: 90vw;
+    margin-top: 15vw;
+}
+
+.preview .movie-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+
+} */
+
+/* ----Circle Pic Css ---------- */
+/* 
+.preview-data{
+    column-count: 2;
+
+}
+
+.id img{
+    width: 50vw;
+    background-color: red;
+    border-radius: 40vw;
+    height: 50vw;
+}
+
+.card{
+    padding:7%
+}
+
+.info p{
+    font-size: small;
+} */
+
+ 
+ /* layer blurr for backdrop */
+ /* .layer-blurr {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+} */
+
+/* popup layer  */
+
+ /* .popup1 {
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    height: 80vh;
+    background-image: url("./img/ice\ age2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    backdrop-filter: blur(1px);
+}
+
+section.popupdata {
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+    top: 10vh;
+    left: 10vw;
+}
+
+.preview-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img-popup {
+    flex-basis: 25%;
+    background-color: #fff;
+    padding: 5%;
+    height: 25vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    max-width: 75%;
+}
+.img-popup img{
+    width:100%;
+}
+.popupcontent{
+    flex-basis: 75%;
+}
+
+/* ----Circle Pic Css ----------- */
+
+/* @media only screen and (max-width: 700px){
+    .text h1{
+        font-size: 40px;
+    }
+    .watch{
+        padding: 5px 10px;
+    }
+    .text p {
+        font-size: 8px;
+    }
+
+} */
+
+/* media query columns */
+
+
+/* @media all and (min-width: 400px) {
+    .movie-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+      margin-bottom: 1rem;
+    }
+    .grid-item {
+      padding-bottom: 0.25rem;
+    }
+  }   */ 
