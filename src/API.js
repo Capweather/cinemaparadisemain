@@ -6,7 +6,7 @@ var baseURL;
 if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === 'PRODUCTION') {
     baseURL = process.env.REACT_APP_API_BASE_URL;
 } else {
-    baseURL = 'http://127.0.0.1:8000';
+    baseURL = 'https://github.com/Capweather/cinemaparadisemain';
 }
 
 const api = axios.create({
